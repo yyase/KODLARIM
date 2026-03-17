@@ -1,5 +1,5 @@
-input_file = "yorumlar.txt"
-output_file = "temiz_yorumlar.txt"
+input_file = "yorumlar.txt" //You can change the files name
+output_file = "temiz_yorumlar.txt"//You can change the files name
 
 with open(input_file, "r", encoding="utf-8") as f:
     lines = f.readlines()
